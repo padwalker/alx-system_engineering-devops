@@ -1,2 +1,2 @@
 #!/bin/bash
-grep '^[![:digit:]*]' /etc/ssh/ssh_config
+grep -v '^[[:digit:]*]' /etc/ssh/ssh_config
