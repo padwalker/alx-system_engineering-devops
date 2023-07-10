@@ -1,2 +1,2 @@
 #!/bin/bash
-ech "Chicago" | tr -d "cC"
+```read``` | tr -d "cC"
