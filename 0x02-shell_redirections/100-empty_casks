@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -empty | ls -aR | tr ' ' '\n'
+find . -empty | ls -laR | tr ' ' '\n'
