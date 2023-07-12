@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -laR | find . -empty | tr ' ' '\n'
+find . -empty -type f -o -type d
